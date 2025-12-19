@@ -21,7 +21,7 @@ this project in detail, feel free to contact me.
 
 ## Live Demo Link
 
-🔗 Live Demo: portfolio-five-pi-1kbxqgeljf.vercel.app
+🔗 Live Demo: [portfolio-five-pi-1kbxqgeljf.vercel.app](https://portfolio-five-pi-1kbxqgeljf.vercel.app/)
 
 ## Features
 

@@ -23,7 +23,7 @@ A modern, responsive portfolio website built with React, CSS, and JavaScript.
 
 ## Live Demo Link
 
-🔗 Live Demo: https://your-portfolio-link.com
+🔗 Live Demo: 🔗 Live Demo: https://portfolio-five-pi-1kbxqgeljf.vercel.app/
 
 ## Features
 
@@ -35,6 +35,11 @@ A modern, responsive portfolio website built with React, CSS, and JavaScript.
 - ⚡ Fast and performant
 
 ## Screenshots
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dca3c2e3-15bc-4ffe-a383-a41b6b7f7ab8" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f0cee316-ec80-4ab8-a0d7-e0847dad7194" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8b3968eb-cad9-43df-89f7-5a28ed55a61d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4ba720a6-1479-4b68-b664-87f278511f21" />
 
 - Hero Section
 - About Section

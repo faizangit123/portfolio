@@ -34,6 +34,11 @@ this project in detail, feel free to contact me.
 
 ## Screenshots
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9607ba12-48f9-40bc-a12a-74421bdecafe" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/05abfbf0-c585-46df-997f-879120595fa1" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/402e02b3-c0d1-4d64-aad7-6ded19641574" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b89d1230-1897-4a3d-972c-fe25ef70602e" />
+
 - Hero Section
 - About Section
 - Projects Section

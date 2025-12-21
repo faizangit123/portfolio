@@ -76,7 +76,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="contact-item-label">Location</p>
-                    <p className="contact-item-value">India</p>
+                    <p className="contact-item-value">India, New Delhi, Delhi, Pitampura-110034</p>
                   </div>
                 </div>
               </div>
@@ -119,7 +119,7 @@ const ContactSection = () => {
                 <span className="availability-title">Available for Opportunities</span>
               </div>
               <p className="availability-desc">
-                I'm currently looking for full-time opportunities as a Full-Stack Developer. 
+                I'm currently looking for full-time opportunities. 
                 Let's build something amazing together!
               </p>
             </Motion.div>

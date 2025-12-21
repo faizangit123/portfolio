@@ -63,17 +63,18 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+  margin-top: 1.5rem;
 }
 
 .stat-card {
-  padding: 1.5rem;
+  padding: 1.25rem;
   text-align: center;
 }
 
 .stat-card svg {
-  width: 2rem;
-  height: 2rem;
-  margin: 0 auto 0.75rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin: 0 auto 0.5rem;
   color: var(--primary);
   transition: transform 0.3s ease;
 }
@@ -83,18 +84,87 @@
 }
 
 .stat-number {
-  font-size: 1.875rem;
+   font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .stat-label {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   color: var(--muted-foreground);
+}
+
+/* Profile Image Section */
+.about-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.about-image-placeholder {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.1), rgba(34, 211, 238, 0.05));
+  border: 2px dashed rgba(34, 211, 238, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.about-image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.placeholder-text {
+  color: var(--primary);
+  font-size: 1.25rem;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.about-image-decoration {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--primary);
+  border-radius: 1rem;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.about-image-dots {
+  position: absolute;
+  bottom: -2rem;
+  left: -2rem;
+  width: 6rem;
+  height: 6rem;
+  background-image: radial-gradient(circle, var(--primary) 2px, transparent 2px);
+  background-size: 12px 12px;
+  opacity: 0.4;
+  z-index: 0;
 }
 
 @media (min-width: 1024px) {
   .about-grid {
     grid-template-columns: 1fr 1fr;
+  }
+  
+  .about-image-container {
+    max-width: 350px;
   }
 }

@@ -66,27 +66,39 @@ const AboutSection = () => {
                 </span>
               ))}
             </div>
+
+            <div className="stats-grid">
+              {stats.map((stat, index) => (
+                <Motion.div
+                  key={stat.label}
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={isInView ? { opacity: 1, scale: 1 } : {}}
+                  transition={{ duration: 0.4, delay: 0.4 + index * 0.1 }}
+                  className="glass-card-hover stat-card"
+                >
+                  <stat.icon />
+                  <div className="stat-number gradient-text">{stat.number}</div>
+                  <div className="stat-label">{stat.label}</div>
+                </Motion.div>
+              ))}
+            </div>
           </Motion.div>
 
           <Motion.div
             initial={{ opacity: 0, x: 40 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="stats-grid"
+            className="about-image-wrapper"
           >
-            {stats.map((stat, index) => (
-              <Motion.div
-                key={stat.label}
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={isInView ? { opacity: 1, scale: 1 } : {}}
-                transition={{ duration: 0.4, delay: 0.4 + index * 0.1 }}
-                className="glass-card-hover stat-card"
-              >
-                <stat.icon />
-                <div className="stat-number gradient-text">{stat.number}</div>
-                <div className="stat-label">{stat.label}</div>
-              </Motion.div>
-            ))}
+            <div className="about-image-container">
+              <div className="about-image-placeholder">
+                {<img src="one.jpg" alt="" />}
+                {/* Add your image here: <img src="your-photo.jpg" alt="Faizan" /> */}
+                <span className="placeholder-text">.</span>
+              </div>
+              <div className="about-image-decoration"></div>
+              <div className="about-image-dots"></div>
+            </div>
           </Motion.div>
         </div>
       </div>

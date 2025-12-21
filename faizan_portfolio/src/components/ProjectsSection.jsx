@@ -4,42 +4,65 @@ import { ExternalLink, Github, Folder } from 'lucide-react';
 import './ProjectsSection.css';
 
 const projects = [
-  {
-    title: 'E-Commerce Platform',
-    description: 'A full-featured online store with product catalog, cart functionality, secure checkout, and admin dashboard for inventory management.',
-    tech: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
-    github: 'https://github.com/faizangit123',
-    live: '#',
-    featured: true,
-  },
+  // {
+  //   title: 'E-Commerce Platform',
+  //   description: 'A full-featured online store with product catalog, cart functionality, secure checkout, and admin dashboard for inventory management.',
+  //   tech: ['React', 'Node.js', 'MongoDB', 'Stripe', 'CSS'],
+  //   image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop',
+  //   github: 'https://github.com/faizangit123',
+  //   live: '#',
+  //   featured: true,
+  // },
   {
     title: 'Task Management Dashboard',
     description: 'A collaborative project management tool with drag-and-drop boards, real-time updates, team collaboration, and progress tracking.',
-    tech: ['React', 'Express', 'Socket.io', 'PostgreSQL'],
-    github: 'https://github.com/faizangit123',
-    live: '#',
+    tech: ['React', 'Express', 'Socket.io', ''],
+    image: 'four.png',
+    github: 'https://github.com/faizangit123/Project-Task-Management-Dashboard',
+    live: 'https://project-task-management-dashboard.vercel.app/',
+    featured: true,
+  },
+   {
+    title: 'Subscription Pricing Page Builder',
+    description: 'For now this is a frontend-only application that allows users to create, customize, preview, and save pricing plans dynamically',
+    tech: ['React', 'Express', 'Socket.io', ''],
+    image: 'three.png',
+    github: 'https://github.com/faizangit123/Project-Subscription-Pricing-Page-Builder',
+    live: 'https://project-subscription-pricing-page-b.vercel.app/',
+    featured: true,
+  },
+  {
+    title: 'Weather Dashboard Open Meteo',
+    description: 'The application focuses on clean UI, usability, and frontend best practices.',
+    tech: ['React', 'Express', 'Socket.io', 'Open-meteo API'],
+    image: 'five.png',
+    github: 'https://github.com/faizangit123/weather-dashboard-open-meteo',
+    live: 'https://weather-dashboard-open-meteo.vercel.app/',
     featured: true,
   },
   {
     title: 'Portfolio Website Builder',
     description: 'A SaaS platform that allows users to create professional portfolios with customizable templates and real-time preview.',
     tech: ['React', 'Node.js', 'MongoDB', 'AWS S3'],
-    github: 'https://github.com/faizangit123',
-    live: '#',
+    image: 'img3.png',
+    github: 'https://github.com/faizangit123/project_portfolio_builder',
+    live: 'https://project-portfolio-builder.vercel.app/',
     featured: true,
   },
   {
-    title: 'Weather Dashboard',
-    description: 'Real-time weather application with location-based forecasts, interactive maps, and severe weather alerts.',
-    tech: ['React', 'OpenWeather API', 'Chart.js'],
-    github: 'https://github.com/faizangit123',
-    live: '#',
-    featured: false,
+    title: 'Kanban Board',
+    description: 'A visual project management tool that helps teams track tasks across stages like To Do, In Progress, and Done for better workflow and productivity.',
+    tech: ['React', 'HTML5 Drag & Drop API', 'Chart.js'],
+    image: 'two.png',
+    github: 'https://github.com/faizangit123/Project_Kanban_Board',
+    live: 'https://project-kanban-board-lilac.vercel.app/',
+    featured: true,
   },
   {
     title: 'Blog CMS',
     description: 'Content management system with markdown support, SEO optimization, and analytics dashboard.',
     tech: ['React', 'Node.js', 'MongoDB', 'JWT'],
+    image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&h=400&fit=crop',
     github: 'https://github.com/faizangit123',
     live: '#',
     featured: false,
@@ -48,6 +71,7 @@ const projects = [
     title: 'REST API Service',
     description: 'Scalable RESTful API with authentication, rate limiting, documentation, and comprehensive testing.',
     tech: ['Node.js', 'Express', 'PostgreSQL', 'Docker'],
+    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop',
     github: 'https://github.com/faizangit123',
     live: '#',
     featured: false,
@@ -89,17 +113,20 @@ const ProjectsSection = () => {
               transition={{ duration: 0.6, delay: 0.2 + index * 0.1 }}
               className={`featured-project ${index % 2 !== 0 ? 'reverse' : ''}`}
             >
-              <div className="project-image">
-                <Motion.div
-                  whileHover={{ scale: 1.02 }}
-                  className="glass-card project-image-inner"
-                >
-                  <div className="project-placeholder">
-                    <Folder />
-                    <span>Project Preview</span>
-                  </div>
-                </Motion.div>
-              </div>
+         <div className="project-image">
+  <Motion.div
+    whileHover={{ scale: 1.02 }}
+    className="glass-card project-image-inner"
+  >
+                <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="project-img"
+                  />
+  </Motion.div>
+</div>
+
+
 
               <div className="project-info">
                 <span className="code-text project-label">Featured Project</span>

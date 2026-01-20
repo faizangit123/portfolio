@@ -50,7 +50,6 @@ const Footer = () => {
         <div className="footer-bottom">
           <p className="footer-copyright">
             © {currentYear} Faizan.
-             {/* Made with <Heart size={14} /> and lots of ☕ */}
           </p>
 
           <div className="footer-social">

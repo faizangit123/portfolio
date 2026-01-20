@@ -215,5 +215,3 @@ npm run deploy
 - 📄 Resume: https://drive.google.com/your-resume-link
 
 ---
-
-Made with ❤️ by Faizan

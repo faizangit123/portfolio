@@ -13,10 +13,20 @@ const projects = [
   //   live: '#',
   //   featured: true,
   // },
+
+  {
+    title: 'SkillSync',
+    description: 'SkillSync is a production-ready full-stack web application designed to help developers track their skills, projects, milestones, and progress analytics.The project demonstrates real-world software engineering practices',
+    tech: ['React.js','Python','Tailwind CSS','Django','Docker','Vercel','Render','PostgreSQL 16.11'],
+    image: 'skill.png',
+    github: 'https://github.com/faizangit123/SkillSync',
+    live: 'https://skill-sync-sage-nu.vercel.app',
+    featured: true,
+  },
   {
     title: 'Task Management Dashboard',
     description: 'A collaborative project management tool with drag-and-drop boards, real-time updates, team collaboration, and progress tracking.',
-    tech: ['React', 'Express', 'Socket.io', ''],
+    tech: ['React.js','Tsilwind CSS','Versel', 'Socket.io', ''],
     image: 'four.png',
     github: 'https://github.com/faizangit123/Project-Task-Management-Dashboard',
     live: 'https://project-task-management-dashboard.vercel.app/',
@@ -25,7 +35,7 @@ const projects = [
    {
     title: 'Subscription Pricing Page Builder',
     description: 'For now this is a frontend-only application that allows users to create, customize, preview, and save pricing plans dynamically',
-    tech: ['React', 'Express', 'Socket.io', ''],
+    tech: ['React.js','CSS3','HTML5','Versel','Socket.io',],
     image: 'three.png',
     github: 'https://github.com/faizangit123/Project-Subscription-Pricing-Page-Builder',
     live: 'https://project-subscription-pricing-page-b.vercel.app/',
@@ -34,7 +44,7 @@ const projects = [
   {
     title: 'Weather Dashboard Open Meteo',
     description: 'The application focuses on clean UI, usability, and frontend best practices.',
-    tech: ['React', 'Express', 'Socket.io', 'Open-meteo API'],
+    tech: ['React.js', 'CSS3','HTML5','Socket.io', 'Open-meteo API'],
     image: 'five.png',
     github: 'https://github.com/faizangit123/weather-dashboard-open-meteo',
     live: 'https://weather-dashboard-open-meteo.vercel.app/',
@@ -43,7 +53,7 @@ const projects = [
   {
     title: 'Portfolio Website Builder',
     description: 'A SaaS platform that allows users to create professional portfolios with customizable templates and real-time preview.',
-    tech: ['React', 'Node.js', 'MongoDB', 'AWS S3'],
+    tech: ['React.js','CSS3','HTML5'],
     image: 'img3.png',
     github: 'https://github.com/faizangit123/project_portfolio_builder',
     live: 'https://project-portfolio-builder.vercel.app/',
@@ -52,7 +62,7 @@ const projects = [
   {
     title: 'Kanban Board',
     description: 'A visual project management tool that helps teams track tasks across stages like To Do, In Progress, and Done for better workflow and productivity.',
-    tech: ['React', 'HTML5 Drag & Drop API', 'Chart.js'],
+    tech: ['React,js', 'HTML5 Drag & Drop API', 'Chart.js'],
     image: 'two.png',
     github: 'https://github.com/faizangit123/Project_Kanban_Board',
     live: 'https://project-kanban-board-lilac.vercel.app/',
@@ -61,7 +71,7 @@ const projects = [
   {
     title: 'Blog CMS',
     description: 'Content management system with markdown support, SEO optimization, and analytics dashboard.',
-    tech: ['React', 'Node.js', 'MongoDB', 'JWT'],
+    tech: ['React.js', 'Node.js', 'MongoDB', 'JWT'],
     image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&h=400&fit=crop',
     github: 'https://github.com/faizangit123',
     live: '#',
@@ -70,7 +80,7 @@ const projects = [
   {
     title: 'REST API Service',
     description: 'Scalable RESTful API with authentication, rate limiting, documentation, and comprehensive testing.',
-    tech: ['Node.js', 'Express', 'PostgreSQL', 'Docker'],
+    tech: ['Node.js', 'PostgreSQL', 'Docker'],
     image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop',
     github: 'https://github.com/faizangit123',
     live: '#',

@@ -26,7 +26,7 @@ const projects = [
   {
     title: 'Task Management Dashboard',
     description: 'A collaborative project management tool with drag-and-drop boards, real-time updates, team collaboration, and progress tracking.',
-    tech: ['React.js','Tsilwind CSS','Versel', 'Socket.io', ''],
+    tech: ['React.js','Tsilwind CSS','Versel', 'Socket.io'],
     image: 'four.png',
     github: 'https://github.com/faizangit123/Project-Task-Management-Dashboard',
     live: 'https://project-task-management-dashboard.vercel.app/',

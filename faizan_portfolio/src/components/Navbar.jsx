@@ -53,7 +53,9 @@ const Navbar = () => {
             </Motion.a>
           ))}
           <Motion.a
-            href="#"
+            href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary navbar-resume"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -81,18 +83,24 @@ const Navbar = () => {
             className="mobile-menu"
           >
             {navLinks.map((link) => (
-              <a
+              <Motion.a
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {link.name}
-              </a>
+              </Motion.a>
             ))}
-            <a href="#" className="btn-primary" style={{ width: 'fit-content', fontSize: '0.875rem' }}>
+            <Motion.a
+              href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+              style={{ width: 'fit-content', fontSize: '0.875rem' }}
+            >
               <Download size={16} />
               Resume
-            </a>
+            </Motion.a>
           </Motion.div>
         )}
       </AnimatePresence>

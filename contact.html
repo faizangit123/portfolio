@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="image.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="bl"></div>
+        <div class="nav">
+            <div class="navbar">
+                <a href="index.html"><i class="ri-home-7-line"></i></a>
+                <a href="about.html"><i class="ri-user-line"></i></a>
+                <a href="myskill.html"><i class="ri-lightbulb-line"></i></a>
+                <a href="contact.html"><i class="ri-phone-line"></i></a>
+            </div>
+        </div>
+          <div class="btn-contact">
+                    <i class="ri-phone-line"></i>
+                    <p>Contact</p>
+                </div>
+                
+        <div class="content">
+            <div class="form-container">
+                <h2>Send me a mail.</h2>
+                <p>Once form is submit the fields will be reset.</p>
+
+                <form onsubmit="this.reset(); return false;">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" placeholder="Enter your message" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

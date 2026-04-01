@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Rubik", sans-serif;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.main{
+    
+    width: 100vw;
+    
+   
+    color: black;
+    
+    position: relative;
+    cursor: pointer;
+
+}
+.bl{
+    height: 5vh;
+}
+.nav{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar{
+    width: 23vw;
+    height: 7vh;
+    padding: 2vh 0;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+
+.navbar i{
+    padding: 1vh;
+    font-size: 3vh;
+
+}
+.navbar:hover{
+    transform: scale(1.1);
+    
+
+}
+.navbar i:hover{
+    background-color: rgb(212, 195, 228);
+    border-radius: 50%;
+}
+
+.btn-contact{
+    position: absolute;
+    margin-left: 10vw;
+    display: flex;
+    gap: 1vh;
+    width: 120px;
+    padding: 1vh 2vh;
+    color: white;
+    background:  rgb(49, 48, 48);
+    font-weight: 500;
+    border-radius: 50px;
+    transition: .2s ease-in;
+}
+.btn-contact:hover{
+    transform: scale(1.2);
+}
+.content{
+
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .form-container {
+      background: white;
+      padding: 30px;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      max-width: 400px;
+      width: 100%;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .form-container h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .form-container p {
+      font-size: 0.9rem;
+      color: #6b7280;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #111827;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 18px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      outline: none;
+      transition: all 0.3s ease;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #6366f1;
+      box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+    }
+
+    textarea {
+      resize: none;
+      height: 100px;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      background: #0f172a;
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #1e293b;
+    }

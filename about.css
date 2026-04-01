@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Rubik", sans-serif;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.main{
+    
+    width: 100vw;
+    
+   
+    color: black;
+    
+    position: relative;
+    cursor: pointer;
+
+}
+.bl{
+    height: 5vh;
+}
+.nav{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar{
+    width: 23vw;
+    height: 7vh;
+    padding: 2vh 0;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+
+.navbar i{
+    padding: 1vh;
+    font-size: 3vh;
+
+}
+.navbar:hover{
+    transform: scale(1.1);
+    
+
+}
+.navbar i:hover{
+    background-color: rgb(212, 195, 228);
+    border-radius: 50%;
+}
+.content{
+    display: flex;
+}
+
+.btn-about{
+    display: flex;
+    width: 100px;
+    font-weight: 500;
+    gap: 10px;
+    background-color: rgb(49, 48, 48);
+    padding: 10px 10px;
+    color: white;
+    border: 1px solid black;
+    border-radius:50px;
+}
+.left{
+    margin-top: 5vh;
+    width: 40vw;
+    margin-left: 10vw;
+}
+.left h1{
+    margin-top: 2vw;
+    font-size: 7vh;
+    font-weight: 700;
+}
+.left span{
+     background: linear-gradient(90deg, #742c82, #7a40cf, #561d7b);
+    -webkit-background-clip: text;   /* for Safari/Chrome */
+    -webkit-text-fill-color: transparent;
+    background-clip: text;           /* for Firefox */
+    color: transparent;
+}
+.sec{
+    margin-top: 2vh;
+}
+
+.left h2{
+    font-size: 6vh;
+    font-weight: 400;
+    margin-top: 1vh;
+}
+.line{
+    margin-top: 2vh;
+    display: inline-block;
+    width: 300px;
+    height: 1.6vh;
+    border-radius: 50px;
+   background: linear-gradient(90deg, #a537bb, #a234b9, #9339a5);
+}
+.about{
+    margin-top: 3vh;
+    font-size: 3vh;
+    font-weight: 300;
+}
+.right{
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+.image{
+    margin: 4vh 0 6vh 2vh;
+    font-size: 7vh;
+
+}
+
+.ui{
+    margin-bottom: 2vh;
+}
+ ul,li{
+ font-size: 3vh;
+ margin-top: 2vh;
+ margin-left: 2vw;
+ font-weight: 400;
+}

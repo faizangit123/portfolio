@@ -15,12 +15,39 @@ const projects = [
   // },
 
   {
+    title: 'Marco India — CCTV, Signal & Telecom Installation Services',
+    description: 'A modern, responsive business website for Marco India, a professional CCTV surveillance, signal boosting, and telecom infrastructure installation company based in India. Built with React, Vite, and CSS.',
+    tech: ['React.js','Python','Tailwind CSS','Django','Docker','Vercel','Railway','PostgreSQL 16.11'],
+    image: 'MacroIndia.png',
+    github: 'https://github.com/faizangit123/Marco-India',
+    live: 'https://marco-india.vercel.app/',
+    featured: true,
+  },
+  {
+    title: '🎓 LearnVanta – Modern Video Learning Platform',
+    description: 'LearnVanta is a modern, video-based learning platform for Class 8–12 students and college learners. It curates and embeds YouTube educational content into a structured learning experience, making study more organized, focused, and effective. Built with React (Vite) and Django.',
+    tech: ['React.js','Python','Tailwind CSS','Django','Docker','Vercel','Render','PostgreSQL 16.11'],
+    image: 'learnVenta.png',
+    github: 'https://github.com/faizangit123/LearnVanta-Platform',
+    live: 'https://learn-vanta-platform.vercel.app/',
+    featured: true,
+  },
+  {
     title: 'SkillSync',
-    description: 'SkillSync is a production-ready full-stack web application designed to help developers track their skills, projects, milestones, and progress analytics.The project demonstrates real-world software engineering practices',
+    description: 'SkillSync is a production-ready full-stack web application designed to help developers track their skills, projects, milestones, and progress analytics.The project demonstrates real-world software engineering practices.',
     tech: ['React.js','Python','Tailwind CSS','Django','Docker','Vercel','Render','PostgreSQL 16.11'],
     image: 'skill.png',
     github: 'https://github.com/faizangit123/SkillSync',
     live: 'https://skill-sync-sage-nu.vercel.app',
+    featured: true,
+  },
+  {
+    title: '🖥️ Remote Monitoring Portal',
+    description: 'A Python-based remote monitoring system for Windows machines. A lightweight agent collects real-time system metrics and streams them over WebSocket to a FastAPI backend, which serves a React dashboard with live charts, process management, and role-based access control.',
+    tech: ['React.js','Python','Tailwind CSS','Django','Docker','Vercel','Render','PostgreSQL 16.11'],
+    image: 'Remote.png',
+    github: 'https://github.com/faizangit123/Remote-Monitoring-Portal',
+    live: 'https://remote-monitoring-portal.vercel.app/login',
     featured: true,
   },
   {
@@ -30,7 +57,7 @@ const projects = [
     image: 'four.png',
     github: 'https://github.com/faizangit123/Project-Task-Management-Dashboard',
     live: 'https://project-task-management-dashboard.vercel.app/',
-    featured: true,
+    featured: false,
   },
    {
     title: 'Subscription Pricing Page Builder',
@@ -39,7 +66,7 @@ const projects = [
     image: 'three.png',
     github: 'https://github.com/faizangit123/Project-Subscription-Pricing-Page-Builder',
     live: 'https://project-subscription-pricing-page-b.vercel.app/',
-    featured: true,
+    featured: false,
   },
   {
     title: 'Weather Dashboard Open Meteo',
@@ -66,7 +93,7 @@ const projects = [
     image: 'two.png',
     github: 'https://github.com/faizangit123/Project_Kanban_Board',
     live: 'https://project-kanban-board-lilac.vercel.app/',
-    featured: true,
+    featured: false,
   },
   {
     title: 'Blog CMS',

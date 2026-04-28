@@ -51,6 +51,15 @@ const projects = [
     featured: true,
   },
   {
+    title: '📚 Library Management System',
+    description: 'A real-world Library Management System built with Django and Django REST Framework, featuring JWT authentication, book borrowing and return logic, and secure Razorpay payment integration for memberships and late fees.',
+    tech: ['React.js','Python','Django','Docker','Vercel','Render','PostgreSQL 16.11'],
+    image: 'Remote.png',
+    github: 'https://github.com/faizangit123/Django-Library-management-Razorpay',
+    live: 'https://django-library-management-razorpay.onrender.com/',
+    featured: true,
+  },
+  {
     title: 'Task Management Dashboard',
     description: 'A collaborative project management tool with drag-and-drop boards, real-time updates, team collaboration, and progress tracking.',
     tech: ['React.js','Tsilwind CSS','Versel', 'Socket.io'],
@@ -84,7 +93,7 @@ const projects = [
     image: 'img3.png',
     github: 'https://github.com/faizangit123/project_portfolio_builder',
     live: 'https://project-portfolio-builder.vercel.app/',
-    featured: true,
+    featured: false,
   },
   {
     title: 'Kanban Board',

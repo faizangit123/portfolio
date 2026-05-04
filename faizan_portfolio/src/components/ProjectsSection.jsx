@@ -51,10 +51,10 @@ const projects = [
     featured: true,
   },
   {
-    title: '📚 Library Management System',
+    title: 'Library Management System',
     description: 'A real-world Library Management System built with Django and Django REST Framework, featuring JWT authentication, book borrowing and return logic, and secure Razorpay payment integration for memberships and late fees.',
     tech: ['React.js','Python','Django','Docker','Vercel','Render','PostgreSQL 16.11'],
-    image: 'Remote.png',
+    image: 'library.png',
     github: 'https://github.com/faizangit123/Django-Library-management-Razorpay',
     live: 'https://django-library-management-razorpay.onrender.com/',
     featured: true,

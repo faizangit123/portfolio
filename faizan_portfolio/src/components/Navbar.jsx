@@ -92,7 +92,7 @@ const Navbar = () => {
               </Motion.a>
             ))}
             <Motion.a
-              href="https://drive.google.com/drive/folders/1LXLQ2CckG_9KN90PeTt_5ZhzZbOngrPX?usp=sharing"
+              href="https://drive.google.com/drive/u/1/folders/1LXLQ2CckG_9KN90PeTt_5ZhzZbOngrPX"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"

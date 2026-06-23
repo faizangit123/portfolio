@@ -53,7 +53,7 @@ const Navbar = () => {
             </Motion.a>
           ))}
           <Motion.a
-            href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID"
+            href="https://drive.google.com/drive/u/1/folders/1LXLQ2CckG_9KN90PeTt_5ZhzZbOngrPX"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary navbar-resume"

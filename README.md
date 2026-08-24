@@ -15,12 +15,11 @@ this project in detail, feel free to contact me.
 
 ## Features
 
-- ✨ Modern and clean design
-- 📱 Fully responsive (mobile, tablet, desktop)
-- 🎨 Smooth animations with Framer Motion
-- 📧 Contact form with validation
-- 🎯 SEO optimized
-- ⚡ Fast and performant
+- Fully responsive (mobile, tablet, desktop)
+- Smooth animations with Framer Motion
+- Contact form with validation
+- SEO optimized
+- Fast and performant
 
 ## Screenshots
 

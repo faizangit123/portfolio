@@ -164,11 +164,6 @@ To enable the contact form:
 2. Import project on [Vercel](https://vercel.com)
 3. Deploy
 
-### Netlify
-
-1. Push your code to GitHub
-2. Import project on [Netlify](https://www.netlify.com)
-3. Deploy
 
 ### GitHub Pages
 
@@ -211,6 +206,6 @@ npm run deploy
 - GitHub: [faizangit123](https://github.com/faizangit123)
 - LinkedIn: https://www.linkedin.com/in/md-faizan-97705b348/
 - Email: faizanrock705@gmail.com
-- 📄 Resume: https://drive.google.com/your-resume-link
+- 📄 Resume: https://drive.google.com/drive/u/1/folders/1LXLQ2CckG_9KN90PeTt_5ZhzZbOngrPX
 
 ---
